@@ -21,7 +21,7 @@ class DataTypeTableViewController: UIViewController, UITableViewDelegate, UITabl
     
     var dataTypeIdentifier: String = ""
     
-    
+    // some comment
     var dataValues: [HealthDataValue] = [] ///values for specific data type
     //@Published var dailyActivity: [DailyActivity] = []
     static var start : Date = Calendar.current.date(bySettingHour: 2, minute: 0, second: 0, of: Date())!
