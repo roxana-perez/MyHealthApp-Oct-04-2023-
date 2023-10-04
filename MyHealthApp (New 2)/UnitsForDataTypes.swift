@@ -15,6 +15,10 @@ func preferredUnit(for sample: HKSample) -> HKUnit? { ///assigning unit
     if let quantitySample = sample as? HKQuantitySample, let unit = unit {
         assert(quantitySample.quantity.is(compatibleWith: unit),
                "The preferred unit is not compatiable with this sample.")
+        
+        
+        
+        
     }
     return unit
 }
